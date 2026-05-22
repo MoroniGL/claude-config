@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "plugins": {
+    "ui-ux-pro-max@nextlevelbuilder-ui-ux-pro-max-skill": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\nextlevelbuilder-ui-ux-pro-max-skill\\ui-ux-pro-max\\2.5.0",
+        "version": "2.5.0",
+        "installedAt": "2026-03-31T13:01:23.202Z",
+        "lastUpdated": "2026-03-31T13:01:23.202Z",
+        "gitCommitSha": "4255c218a6762c945a782701fd38dfb24fc10064"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\5.0.7",
+        "version": "5.0.7",
+        "installedAt": "2026-03-31T13:08:53.357Z",
+        "lastUpdated": "2026-04-03T14:00:04.749Z",
+        "gitCommitSha": "eafe962b18f6c5dc70fb7c8cc7e83e61f4cdde06"
+      }
+    ],
+    "vercel@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\claude-plugins-official\\vercel\\0.40.0",
+        "version": "0.40.0",
+        "installedAt": "2026-04-07T13:46:04.982Z",
+        "lastUpdated": "2026-04-12T21:19:00.193Z",
+        "gitCommitSha": "b95178c7d8dfb2d48f142825dd967b71d7552eab"
+      }
+    ],
+    "marketing-skills@marketingskills": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\marketingskills\\marketing-skills\\114587831efb",
+        "version": "114587831efb",
+        "installedAt": "2026-04-20T13:22:19.401Z",
+        "lastUpdated": "2026-05-19T20:54:10.000Z",
+        "gitCommitSha": "114587831efbe7ac5c0a86afcb69e9cca6f728ce"
+      }
+    ]
+  }
+}

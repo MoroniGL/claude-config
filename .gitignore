@@ -1,0 +1,45 @@
+# Credenciais e tokens - NUNCA commitar
+.credentials.json
+.env
+.env.*
+*credentials*
+*secret*
+*.key
+*.pem
+
+# Estado local da sessao (auto-gerado)
+.last-cleanup
+history.jsonl
+stats-cache.json
+mcp-needs-auth-cache.json
+vercel-plugin-device-id
+vercel-plugin-telemetry-preference
+
+# Caches e diretorios locais nao versionados
+cache/
+chrome/
+downloads/
+file-history/
+ide/
+paste-cache/
+session-env/
+sessions/
+shell-snapshots/
+telemetry/
+projects/
+
+# Plugins baixados (1.1GB) - restaurados via scripts/restore
+plugins/cache/
+plugins/marketplaces/
+plugins/data/
+plugins/install-counts-cache.json
+plugins/blocklist.json
+plugins/installed_plugins.json.bak
+
+# Backups locais de .claude.json (contem estado privado de projetos)
+backups/
+
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini

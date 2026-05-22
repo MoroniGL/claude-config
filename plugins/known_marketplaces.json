@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "lastUpdated": "2026-04-30T09:52:57.922Z"
+  },
+  "nextlevelbuilder-ui-ux-pro-max-skill": {
+    "source": {
+      "source": "github",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\nextlevelbuilder-ui-ux-pro-max-skill",
+    "lastUpdated": "2026-03-31T12:00:00.000Z"
+  },
+  "marketingskills": {
+    "source": {
+      "source": "github",
+      "repo": "coreyhaines31/marketingskills"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\marketingskills",
+    "lastUpdated": "2026-05-19T20:54:10.000Z"
+  }
+}
