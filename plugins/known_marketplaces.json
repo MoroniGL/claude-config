@@ -22,5 +22,29 @@
     },
     "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\marketingskills",
     "lastUpdated": "2026-05-19T20:54:10.000Z"
+  },
+  "ecc": {
+    "source": {
+      "source": "github",
+      "repo": "affaan-m/ECC"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\ecc",
+    "lastUpdated": "2026-05-23T00:40:49.692Z"
+  },
+  "antigravity-awesome-skills": {
+    "source": {
+      "source": "github",
+      "repo": "sickn33/antigravity-awesome-skills"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\antigravity-awesome-skills",
+    "lastUpdated": "2026-05-23T00:42:45.909Z"
+  },
+  "karpathy-skills": {
+    "source": {
+      "source": "github",
+      "repo": "multica-ai/andrej-karpathy-skills"
+    },
+    "installLocation": "C:\\Users\\moron\\.claude\\plugins\\marketplaces\\karpathy-skills",
+    "lastUpdated": "2026-05-23T00:57:51.001Z"
   }
 }

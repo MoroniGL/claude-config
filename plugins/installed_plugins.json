@@ -40,6 +40,36 @@
         "lastUpdated": "2026-05-19T20:54:10.000Z",
         "gitCommitSha": "114587831efbe7ac5c0a86afcb69e9cca6f728ce"
       }
+    ],
+    "ecc@ecc": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\ecc\\ecc\\2.0.0-rc.1",
+        "version": "2.0.0-rc.1",
+        "installedAt": "2026-05-23T00:41:07.167Z",
+        "lastUpdated": "2026-05-23T00:41:07.167Z",
+        "gitCommitSha": "1e8c7e7994223e0ff337d1626cd08e04a1ae67ed"
+      }
+    ],
+    "antigravity-awesome-skills@antigravity-awesome-skills": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\antigravity-awesome-skills\\antigravity-awesome-skills\\11.5.0",
+        "version": "11.5.0",
+        "installedAt": "2026-05-23T00:43:09.182Z",
+        "lastUpdated": "2026-05-23T00:43:09.182Z",
+        "gitCommitSha": "85b3a55bc5219b63447012b9ca015c271fda919b"
+      }
+    ],
+    "andrej-karpathy-skills@karpathy-skills": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\moron\\.claude\\plugins\\cache\\karpathy-skills\\andrej-karpathy-skills\\1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-23T00:58:11.483Z",
+        "lastUpdated": "2026-05-23T00:58:11.483Z",
+        "gitCommitSha": "2c606141936f1eeef17fa3043a72095b4765b9c2"
+      }
     ]
   }
 }

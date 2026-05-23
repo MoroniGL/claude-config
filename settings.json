@@ -116,13 +116,34 @@
     "ui-ux-pro-max@nextlevelbuilder-ui-ux-pro-max-skill": true,
     "superpowers@claude-plugins-official": true,
     "vercel@claude-plugins-official": true,
-    "marketing-skills@marketingskills": true
+    "marketing-skills@marketingskills": true,
+    "ecc@ecc": true,
+    "antigravity-awesome-skills@antigravity-awesome-skills": true,
+    "andrej-karpathy-skills@karpathy-skills": true
   },
   "extraKnownMarketplaces": {
     "marketingskills": {
       "source": {
         "source": "github",
         "repo": "coreyhaines31/marketingskills"
+      }
+    },
+    "ecc": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      }
+    },
+    "antigravity-awesome-skills": {
+      "source": {
+        "source": "github",
+        "repo": "sickn33/antigravity-awesome-skills"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills"
       }
     }
   },
