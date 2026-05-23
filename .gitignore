@@ -1,4 +1,6 @@
+# ============================================================
 # Credenciais e tokens - NUNCA commitar
+# ============================================================
 .credentials.json
 .env
 .env.*
@@ -7,7 +9,9 @@
 *.key
 *.pem
 
-# Estado local da sessao (auto-gerado)
+# ============================================================
+# Estado local da sessao (auto-gerado por Claude Code)
+# ============================================================
 .last-cleanup
 history.jsonl
 stats-cache.json
@@ -15,7 +19,9 @@ mcp-needs-auth-cache.json
 vercel-plugin-device-id
 vercel-plugin-telemetry-preference
 
-# Caches e diretorios locais nao versionados
+# ============================================================
+# Caches e diretorios locais (~/.claude/)
+# ============================================================
 cache/
 chrome/
 downloads/
@@ -27,8 +33,11 @@ sessions/
 shell-snapshots/
 telemetry/
 projects/
+backups/
 
-# Plugins baixados (1.1GB) - restaurados via scripts/restore
+# ============================================================
+# Plugins baixados (~1.1GB) - restaurados via scripts/restore
+# ============================================================
 plugins/cache/
 plugins/marketplaces/
 plugins/data/
@@ -36,10 +45,101 @@ plugins/install-counts-cache.json
 plugins/blocklist.json
 plugins/installed_plugins.json.bak
 
-# Backups locais de .claude.json (contem estado privado de projetos)
-backups/
+# ============================================================
+# local-bin/ - itens que NAO devem entrar no backup
+# ============================================================
 
-# Sistema
+# Worktrees temporarios do claude-flow (~1.5GB)
+local-bin/.claude/worktrees/
+
+# Banco de memoria local (binary, regenerado)
+local-bin/.claude/memory.db
+local-bin/.claude/memory.db-*
+
+# .swarm e .playwright-mcp (estado local)
+local-bin/.swarm/
+local-bin/.playwright-mcp/
+
+# Outputs gerados (graphify, carousels)
+local-bin/graphify-out/
+local-bin/.graphify_*
+local-bin/carousel-output/
+local-bin/C:Usersmoron.localbincarousel-output/
+
+# Memoria persistente (privada)
+local-bin/memory/
+
+# Executaveis e binarios grandes
+local-bin/claude.exe
+local-bin/*.zip
+local-bin/*.rar
+local-bin/*.tar.gz
+
+# Atalhos do Windows
+local-bin/*.lnk
+
+# Pastas de projetos pessoais (NAO sao parte do Claude Code)
+local-bin/3d brand/
+local-bin/Advogado uk/
+local-bin/aios-core/
+local-bin/chronos-bot/
+local-bin/claude/
+local-bin/claude-cookbooks/
+local-bin/coffee-ad/
+local-bin/discord-base-bot/
+local-bin/discord-base-bot-arcflow/
+local-bin/discord-callback/
+local-bin/discord-clone-bot/
+local-bin/discord-manager-bot/
+local-bin/docs/
+local-bin/jm-cleaner-mobile/
+local-bin/jm-cleaning-react/
+local-bin/jobflow/
+local-bin/jobplanner-mobile/
+local-bin/lib/
+local-bin/melo-base-bot/
+local-bin/melo-bot/
+local-bin/melo-site/
+local-bin/scripts/
+local-bin/src/
+
+# Arquivos lixo / temporarios soltos na raiz
+local-bin/!*
+local-bin/'*
+local-bin/(*
+local-bin/,+,
+local-bin/0
+local-bin/0)
+local-bin/0.9.8
+local-bin/20
+local-bin/400)
+local-bin/a
+local-bin/c.*
+local-bin/cats*
+local-bin/d.category
+local-bin/foi
+local-bin/i
+local-bin/null)
+local-bin/o.setName*
+local-bin/p.nome*
+local-bin/precision
+local-bin/Pronto
+local-bin/r.name*
+local-bin/Se
+local-bin/Stage
+local-bin/`
+local-bin/console.*
+local-bin/Apos
+local-bin/Ap*
+local-bin/depois.*
+local-bin/.git/
+local-bin/.gitattributes
+local-bin/.gitignore
+local-bin/.env
+
+# ============================================================
+# Sistema operacional
+# ============================================================
 Thumbs.db
 .DS_Store
 desktop.ini
